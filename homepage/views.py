@@ -1,5 +1,6 @@
-from django.shortcuts import render
-from django.http import HttpResponse
+from django.template.response import TemplateResponse
+from django.contrib.auth.decorators import login_required
 
+@login_required(login_url='/admin/login/')
 def index(request):
-  return HttpResponse('this is just a test.')
+  return TemplateResponse(request, 'index.html', {})
