@@ -42,6 +42,7 @@ ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = (
     'grappelli',
+    'storages',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -50,6 +51,17 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'homepage',
 )
+
+#   Based on: DEFAULT_FILE_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
+DEFAULT_FILE_STORAGE = 'homepage.s3storage.S3Storage'
+AWS_S3_SECURE_URLS = False
+AWS_QUERYSTRING_AUTH = False
+AWS_QUERYSTRING_EXPIRE = 600
+
+# Set via Heroku config
+AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID', '')
+AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY', '')
+AWS_STORAGE_BUCKET_NAME = os.environ.get('AWS_STORAGE_BUCKET_NAME', '')
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',

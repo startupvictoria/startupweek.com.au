@@ -4,6 +4,7 @@ class Organisation(models.Model):
   name = models.CharField(max_length=250)
 
   status = models.IntegerField(default=1)
+  image = models.ImageField(blank=True)
 
   created = models.DateTimeField(auto_now_add=True)
   modified = models.DateTimeField(auto_now=True)

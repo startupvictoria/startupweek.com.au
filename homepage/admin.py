@@ -12,7 +12,7 @@ class OrganisationAdmin(admin.ModelAdmin):
   ]
 
   fieldsets = [
-    ('Details',     {'fields': ['name', 'status']}),
+    ('Details',     {'fields': ['name', 'image', 'status']}),
   ]
 
   list_display = ('name', 'status')
