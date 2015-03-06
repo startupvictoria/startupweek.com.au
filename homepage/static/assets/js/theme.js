@@ -18,7 +18,7 @@ var theme = function () {
                 tiny_grid, white_bed_sheet, whitediamond, worn_dots
             */
 
-            var css = jQuery('#css-switcher-link');
+            var css = jQuery//'#css-switcher-link');
             css.attr('href', 'assets/css/theme-' + color + '.css');
 
             $('body').removeClass('wide');
