@@ -1,11 +1,10 @@
 from django.conf.urls import patterns, include, url
-from django.contrib import admin
+from startupweek import settings
 
 urlpatterns = patterns('',
     # Examples:
     # url(r'^$', 'startupweek.views.home', name='home'),
-    url(r'', include('homepage.urls')),
-
-    url(r'^grappelli/', include('grappelli.urls')),
-    url(r'^admin/', include(admin.site.urls)),
+    #url(r'', include('homepage.urls')),
+    url(r'^$', 'django.contrib.staticfiles.views.serve', kwargs={
+            'path': 'index.html'}),#, 'document_root': settings.STATIC_ROOT}),
 )
