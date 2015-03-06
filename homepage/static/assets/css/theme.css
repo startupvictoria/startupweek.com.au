@@ -1,3 +1,4 @@
+
 /* Google fonts */
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
 /*font-family: 'Oswald', 'sans-serif';*/
@@ -129,11 +130,11 @@ body.blog {
 }
 
 .page-section.subscribe .parallax-bg {
-    background-image: url("https://lh5.googleusercontent.com/PJaHqhZLNSOZ_RYdizmU4OgYRVFDM56UMYfnA9PVi-4=w984-h414-p-no");
+    background-image: url("https://lh4.googleusercontent.com/-QZMLRXsRMoQ/VPU6OmsnvAI/AAAAAAAAB54/7cvGoPGBre4/w2236-h728-no/parralex_img-01.png");
 }
 
-/*.page-section.subscribe .parallax-overlay {
-    background-color: rgba(50, 58, 69, 0.50);*/
+.page-section.subscribe .parallax-overlay {
+    background-color: rgba(50, 58, 69, 0.1);
 }
 
 .wide .page-section.twitter,
@@ -555,7 +556,7 @@ h6 .fa {
     width: 70px;
     height: 2px;
     margin: 15px auto 15px auto;
-    background-color: #1e90ff;
+    background-color: rgba(176, 31, 35, 1);
 }
 
 a,
@@ -565,13 +566,13 @@ a:focus {
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
     text-decoration: none;
-    color: #1e90ff;
+    color: rgba(176, 31, 35, 1);
 }
 
 a:hover,
 a:active,
 a:focus {
-    color: #307cf0;
+    color: rgba(50, 58, 69, 1);
 }
 
 p {
@@ -603,7 +604,7 @@ ul ol, ol ul {
     position: absolute;
     top: 3px;
     left: 0;
-    color: #1e90ff;
+    color: rgba(50, 58, 69, 1);
 }
 
 .list-ul-inline li {
@@ -674,7 +675,7 @@ hr.page-divider.small {
 .btn-theme.active,
 .open .dropdown-toggle.btn-theme {
     color: #ffffff;
-    background-color: #d2d2dc;
+    background-color: rgba(176, 31, 35, 1);
     border-color: #d2d2dc;
 }
 
@@ -711,15 +712,15 @@ fieldset[disabled] .btn-theme.active {
 
 .btn-theme-primary {
     color: #ffffff;
-    background-color: rgba(2, 59, 73, 1);
-    border-color: rgba(2, 59, 73, 1);
+    background-color: rgba(50, 58, 69, 1);
+    border-color: rgba(50, 58, 69, 1);
 }
 
 .btn-theme-primary:focus,
 .btn-theme-primary:active,
 .btn-theme-primary:hover {
-    background-color: #006ad1;
-    border-color: #006ad1;
+    background-color: rgba(176, 31, 35, 1);
+    border-color: rgba (110, 14, 15, 1);
 }
 
 .btn-theme-white {
@@ -730,7 +731,7 @@ fieldset[disabled] .btn-theme.active {
 
 .btn-theme-white:hover {
     color: #ffffff;
-    background-color: #1e90ff;
+    background-color: rgba(176, 31, 35, 1);
     border-color: #ffffff;
 }
 
@@ -747,7 +748,7 @@ fieldset[disabled] .btn-theme.active {
 }
 
 .btn-theme-default:hover {
-    background-color: #414650;
+    background-color: rgba(176, 31, 35, 1);
     border-color: #414650;
 }
 
@@ -899,7 +900,7 @@ form.subscribe .subscribe-error {color: red;}
 }
 
 .logo {float: left;}
-.logo img {height: 82px; margin-top: 15px;}
+.logo img {height: 65px; margin-top: 15px;}
 
 .header,
 .header > .container,
@@ -1237,7 +1238,7 @@ form.subscribe .subscribe-error {color: red;}
 .post-author a {
     color: #999999;
 }
-.post-author a:hover {color :#1E90FF;}
+.post-author a:hover {color :rgba(176, 31, 35, 1);}
 .post-meta {
     padding: 10px;
     font-size: 14px;
@@ -1278,7 +1279,7 @@ form.subscribe .subscribe-error {color: red;}
     color: #1f2122;
 }
 .post-title a:hover {
-    color: #1e90ff;
+    color: rgba(110, 14, 15, 1);
 }
 .post-footer {margin-top: 20px;}
 .post-tags {display: block; font-size: 11px; line-height: 20px;}
@@ -1684,7 +1685,7 @@ form.subscribe .subscribe-error {color: red;}
     color: #ffffff;
     margin-top: 0;
     margin-bottom: 30px;
-    text-shadow: 4px 4px 0 rgba(0, 0, 0, .4);
+    /*text-shadow: 4px 4px 0 rgba(0, 0, 0, .4)*/;
 }
 
 .alternate .slide-title {
@@ -1976,7 +1977,7 @@ form.subscribe .subscribe-error {color: red;}
     right: -10px;
     width: 20px;
     height: 20px;
-    background-color: #1e90ff;
+    background-color: rgba(176, 31, 35, 1);
     border: solid 5px #ffffff;
     border-radius: 10px;
     -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.3);
@@ -2163,16 +2164,16 @@ form.subscribe .subscribe-error {color: red;}
     position: absolute;
     bottom: 0;
     left: 0;
-    background-color: #f5faff;
+    background-color: #f2f4f7;
     overflow: hidden;
-    max-height: 90px;
+    max-height: 127px;
     text-align: center;
     width: 100%;
 }
 
 .do-up:hover .caption {
     max-height: 100%;
-    background-color: #1e90ff;
+    background-color: rgba(110, 14, 15, 1);
     color: #ffffff;
 }
 
@@ -2200,21 +2201,22 @@ form.subscribe .subscribe-error {color: red;}
     margin: 10px auto;
     background-color: #ffffff;
 }
-.do-up .caption-category a {color: #1e90ff; font-size: 14px; text-transform: uppercase; line-height: 14px;}
-.do-up:hover .caption-category a {color: #e0ffff;}
+.do-up .caption-category a {color: rgba(50, 58, 69, 1); font-size: 14px; text-transform: uppercase; line-height: 14px;}
+.do-up:hover .caption-category a {color: #ffffff;}
 .do-up .caption-text {opacity: 0; font-size: 14px; margin-bottom: 15px; color: #ffffff;}
 .do-up:hover .caption-text {opacity: 1;}
 .do-up:hover .caption-buttons {}
 .do-up .caption-social {
     opacity: 0;
-    background-color: #307cf0;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: rgba(50, 58, 69, 1);
 }
 .do-up:hover .caption-social {
     opacity: 1;
 }
 .do-up .caption-social:hover {
-    background-color: #2b2735;
+    color: #ffffff;
+    background-color: rgba(50, 58, 69, 1);
 }
 .do-up .caption-social .fa {
     width: 14px;
@@ -2264,7 +2266,7 @@ form.subscribe .subscribe-error {color: red;}
     overflow: hidden;
     padding: 15px;
     background-color: #14a6ff;
-    background-color: rgba(20, 166, 255, 0.50);
+    background-color: rgba(50, 58, 69, 0.5);
     color: #ffffff;
     opacity: 0;
 }
@@ -2535,7 +2537,7 @@ form.subscribe .subscribe-error {color: red;}
 
 .feature:hover .media-object,
 .feature.hover .media-object {
-    color: #1e90ff;
+    color: rgba(176, 31, 35, 1);
 }
 
 .feature .media-object:after {
@@ -2657,7 +2659,7 @@ form.subscribe .subscribe-error {color: red;}
     height: 70px;
     border-radius: 50%;
     margin-bottom: 20px;
-    background-color: #414650;
+    background-color: rgba(176, 31, 35, 1);
 }
 
 .directions .directions-icon .fa {
@@ -2747,8 +2749,8 @@ form.subscribe .subscribe-error {color: red;}
     position: absolute; top: 0; left: 0; right: 0;
     width: 100%; height: 100%;
     /*background-attachment: fixed !important;*/
-    /*background-attachment: scroll !important;*/
-    background-position: 0 50%;
+    background-attachment: scroll !important;
+    background-position: center !important;
     background-repeat: repeat;
     /*background-size: 100% auto;*/
     background-size: cover;
@@ -2764,7 +2766,7 @@ form.subscribe .subscribe-error {color: red;}
 .parallax-overlay {
     position: absolute; top: 0; left: 0; right: 0;
     width: 100%; height: 100%;
-    background-color: rgba(255,255,255,.5);
+    background-color: (50, 58, 69, 1);
     background-position: 50% 0;
     background-repeat: repeat;
     /*background-image: url("../img/overlay.png");*/
@@ -2783,7 +2785,7 @@ form.subscribe .subscribe-error {color: red;}
 .wide .footer,
 .boxed .footer > .container {
     padding: 70px 0;
-    background-color: rgba(54, 184, 242, 1); 
+    background-color: rgba(50, 58, 69, 1); 
     color: #414650;
     font-size: 18px;
 }
@@ -2801,14 +2803,14 @@ form.subscribe .subscribe-error {color: red;}
     display: inline-block;
     width: 50px;
     height: 50px;
-    border: solid 2px #414650;
-    color: #414650;
+    border: solid 2px #ffffff;
+    color: #ffffff;
     line-height: 1;
     padding: 16px;
 }
 
 .footer .social-icon:hover {
-    background-color: #414650;
+    background-color: rgba(176, 31, 35, 1);
     color: #ffffff;
 }
 
@@ -2843,7 +2845,7 @@ form.subscribe .subscribe-error {color: red;}
 }
 
 .totop:hover {
-    background-color: #307cf0;
+    background-color: rgba(176, 31, 35, 1);
     color: #ffffff;
 }
 
