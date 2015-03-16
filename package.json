@@ -1,0 +1,39 @@
+{
+  "name": "startupweek.com.au",
+  "version": "0.3.0",
+  "description": "Website for Startup Victoria's Startup Week event",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/startupvictoria/startupweek.com.au"
+  },
+  "private": true,
+  "keywords": [
+    "startup",
+    "event",
+    "Melbourne"
+  ],
+  "author": "Startup Victoria",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/startupvictoria/startupweek.com.au/issues"
+  },
+  "homepage": "https://startupweek.com.au",
+  "devDependencies": {
+    "browser-sync": "^2.2.2",
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-csso": "^1.0.0",
+    "gulp-gh-pages": "^0.5.0",
+    "gulp-htmlmin": "^1.1.1",
+    "gulp-imagemin": "^2.2.1",
+    "gulp-jshint": "^1.9.2",
+    "gulp-rev-all": "^0.7.6",
+    "gulp-uglify": "^1.1.0",
+    "imagemin-pngquant": "^4.0.0",
+    "jshint-stylish": "^1.0.1"
+  }
+}

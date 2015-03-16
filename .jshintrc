@@ -1,0 +1,27 @@
+{
+  "bitwise": true,
+  "browser": true,
+  "camelcase": true,        // DEP, GET JSCS
+  "curly": true,
+  "eqeqeq": true,
+  "esnext": true,
+  "globals": {
+    "jQuery": true,
+    "console": true,
+    "$": true
+  },
+  "immed": true,            // DEP, GET JSCS
+  "indent": 2,              // DEP, GET JSCS
+  "jquery": true,
+  "latedef": true,
+  "newcap": true,           // DEP, GET JSCS
+  "noarg": true,
+  "node": true,
+  "quotmark": "single",     // DEP, GET JSCS
+  //"regexp": true,         // GONE, GET JSCS
+  //"smarttabs": true,      // GONE, GET JSCS
+  "strict": true,
+  "sub": true,              // DEP, GET JSCS
+  "undef": true,
+  "unused": true
+}
