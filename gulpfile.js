@@ -155,7 +155,8 @@ gulp.task('build', [
 gulp.task('deploy', ['build'], function () {
   return gulp.src(['dist/**'])
     .pipe(revall({ ignore: [
-      /^\/favicon.ico$/g, 
+      /^\/favicon.ico$/g,
+      /^\/404.html/g,
       /^\/index.html/g,
       /^\/CNAME/g,
       /^\/humans.txt/g
