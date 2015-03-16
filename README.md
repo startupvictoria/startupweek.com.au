@@ -16,3 +16,8 @@ Homepage for Startup Week!
 1. Wait a bit.
 1. `gulp serve`
 1. [http://localhost:3000](http://localhost:3000)
+
+## Deploying:
+
+1. `gulp deploy`
+1. Go get a coffee
