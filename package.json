@@ -33,7 +33,6 @@
     "gulp-jshint": "^1.9.2",
     "gulp-rev-all": "^0.7.6",
     "gulp-uglify": "^1.1.0",
-    "gulp-util": "^3.0.4",
     "imagemin-pngquant": "^4.0.0",
     "jshint-stylish": "^1.0.1"
   }
